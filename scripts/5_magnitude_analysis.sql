@@ -13,7 +13,6 @@ SQL Functions Used:
 */
 
 -- Find total customers by countries
---finnd toatl customers by countries
 select country, count(customer_key) as total_customers from gold.dim_customers group by country order by total_customers desc;
 
 --find total customers by gender
