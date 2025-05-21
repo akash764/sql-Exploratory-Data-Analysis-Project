@@ -28,4 +28,4 @@ FROM
     FROM gold.fact_sales
     WHERE order_date IS NOT NULL
     GROUP BY DATETRUNC(year, order_date)
-) t
+) 
